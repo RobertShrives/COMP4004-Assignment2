@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="SimpleLibrary/src"/>
+	<classpathentry kind="lib" path="SimpleLibrary/cucumber-core-1.2.5.jar"/>
+	<classpathentry kind="lib" path="SimpleLibrary/cucumber-html-0.2.3.jar"/>
+	<classpathentry kind="lib" path="SimpleLibrary/cucumber-java-1.2.5.jar"/>
+	<classpathentry kind="lib" path="SimpleLibrary/cucumber-junit-1.2.5.jar"/>
+	<classpathentry kind="lib" path="SimpleLibrary/cucumber-jvm-deps-1.0.5.jar"/>
+	<classpathentry kind="lib" path="SimpleLibrary/cucumber-spring-1.2.5.jar"/>
+	<classpathentry kind="lib" path="SimpleLibrary/gherkin-2.12.2.jar"/>
+	<classpathentry kind="lib" path="SimpleLibrary/hamcrest-all-1.3.jar"/>
+	<classpathentry kind="lib" path="SimpleLibrary/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="SimpleLibrary/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="SimpleLibrary/log4j-1.2.8.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="SimpleLibrary/bin"/>
+</classpath>
