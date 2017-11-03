@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="source code/SimpleLibrary/src"/>
+	<classpathentry kind="lib" path="jar files/Client.jar"/>
+	<classpathentry kind="lib" path="jar files/Server.jar"/>
+	<classpathentry kind="lib" path="source code/SimpleLibrary/log4j-1.2.8.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="source code/SimpleLibrary/bin"/>
+</classpath>
