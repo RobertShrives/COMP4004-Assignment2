@@ -1,4 +1,4 @@
-package tests;
+package tests.invalid;
 
 import org.junit.runner.RunWith;
 
@@ -10,6 +10,6 @@ import cucumber.api.junit.Cucumber;
 		plugin={ "pretty", "html:output/cucumber.html"},
 		glue = {"/SimpleLibrary/src/tests"}
 		)
-public class CucumberRunner {
+public class CucumberRunnerInvalid {
 
 }
