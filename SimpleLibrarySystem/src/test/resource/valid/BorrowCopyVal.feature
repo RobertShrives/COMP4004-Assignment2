@@ -1,0 +1,41 @@
+Feature: Borrow Copy Valid
+
+
+Scenario: Tv8	Borrow 
+Given  I create the user "dirk@carleton.ca,pass"
+And I create the user "thom@carleton.ca,pass"
+And  I create the title "5234567890432,The stanky cheese man"
+And  I create the title "1234567892432,The man"
+And I create a copy "5234567890432"
+And I create a copy "5234567890432"
+And I create a copy "5234567890432"
+And I create a copy "1234567892432"
+And I create a copy "1234567892432"
+And I create a copy "1234567892432"
+When I have the user borrow the copy "dirk@carleton.ca,1234567892432,3"
+And I have the user borrow the copy "thom@carleton.ca,1234567892432,2"
+Then I will receive the message "Success!"
+
+Scenario: Tv15	Borrow 
+Given  I create the user "dirkyl@carleton.ca,pass"
+And I create the user "thomas@carleton.ca,pass"
+And  I create the title "9934567890432,The stanky cheese man"
+And  I create the title "8734567892432,The man"
+And I create a copy "9934567890432"
+And I create a copy "9934567890432"
+And I create a copy "9934567890432"
+And I create a copy "8734567892432"
+And I create a copy "8734567892432"
+And I create a copy "8734567892432"
+When I have the user borrow the copy "dirkyl@carleton.ca,9934567890432,1"
+And I have the user borrow the copy "dirkyl@carleton.ca,8734567892432,3"
+And I have the user borrow the copy "thomas@carleton.ca,9934567890432,2"
+And I have the user borrow the copy "thomas@carleton.ca,8734567892432,2"
+And I have the user return the copy "dirkyl@carleton.ca,9934567890432,1"
+And I have the user return the copy "dirkyl@carleton.ca,8734567892432,3"
+And I have the user return the copy "thomas@carleton.ca,9934567890432,2"
+And I have the user return the copy "thomas@carleton.ca,8734567892432,2"
+And I have the user borrow the copy "thomas@carleton.ca,9934567890432,1"
+And I have the user borrow the copy "thomas@carleton.ca,8734567892432,3"
+Then I will receive the message "Success!"
+

@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="304" failures="0" name="Assignment2.SimpleLibrarySystem.CucumberRunnerTest" time="0.051" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_152\jre\bin"/>
+    <property name="java.vm.version" value="25.152-b16"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\robsh\workspace\SimpleLibrarySystem"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\robsh\workspace\SimpleLibrarySystem"/>
+    <property name="java.runtime.version" value="1.8.0_152-b16"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_152\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\robsh\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\robsh\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6360896836212702384.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_152\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_152/bin/server;C:/Program Files/Java/jre1.8.0_152/bin;C:/Program Files/Java/jre1.8.0_152/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;D:\Git\cmd;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\texlive\2017\bin\win32;C:\Users\robsh\AppData\Local\Microsoft\WindowsApps;;C:\Windows\system32;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\robsh"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="robsh"/>
+    <property name="java.class.path" value="/C:/Users/robsh/eclipse/java-neon2/eclipse/../../../.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.6.0.20150526-2031/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_152\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_152"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_152\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_152\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_152\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\robsh\workspace\SimpleLibrarySystem\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Scenario: Ti2	Add	Item to	non-existent	title" name="Given that the title and ISBN does not exist" time="0.003"/>
+  <testcase classname="Scenario: Ti2	Add	Item to	non-existent	title" name="When I create a copy &quot;1234567890123&quot;" time="0"/>
+  <testcase classname="Scenario: Ti2	Add	Item to	non-existent	title" name="Then I will receive the message &quot;The Title Does Not Exists!&quot;" time="0"/>
+  <testcase classname="Scenario: Ti2	Add	Item to	non-existent	title" name="Scenario: Ti2	Add	Item to	non-existent	title" time="0"/>
+  <testcase classname="Scenario: Ti3	Add	Redundant	Title" name="Given that the title &quot;1234567890321,Dune&quot; already exist" time="0"/>
+  <testcase classname="Scenario: Ti3	Add	Redundant	Title" name="When I try to create a title &quot;1234567890321,Dune&quot; again" time="0"/>
+  <testcase classname="Scenario: Ti3	Add	Redundant	Title" name="Then I will receive the message &quot;The Title Already Exists!&quot;" time="0"/>
+  <testcase classname="Scenario: Ti3	Add	Redundant	Title" name="Scenario: Ti3	Add	Redundant	Title" time="0"/>
+  <testcase classname="Scenario: Ti1	Add	Redundant	User" name="Given that &quot;Mike@carleton.ca,pass&quot; already exists" time="0"/>
+  <testcase classname="Scenario: Ti1	Add	Redundant	User" name="When trying to create &quot;Mike@carleton.ca,pass&quot; again" time="0"/>
+  <testcase classname="Scenario: Ti1	Add	Redundant	User" name="Then I will receive the message &quot;The User Already Exists!&quot;" time="0"/>
+  <testcase classname="Scenario: Ti1	Add	Redundant	User" name="Scenario: Ti1	Add	Redundant	User" time="0.001"/>
+  <testcase classname="Scenario: Ti4	Borrow same	copy" name="Given I create the user &quot;darren@carleton.ca,pass&quot;" time="0"/>
+  <testcase classname="Scenario: Ti4	Borrow same	copy" name="And I create the user &quot;will@carleton.ca,pass&quot;" time="0"/>
+  <testcase classname="Scenario: Ti4	Borrow same	copy" name="And I create the title &quot;1234567890432,The stinky cheese man&quot;" time="0"/>
+  <testcase classname="Scenario: Ti4	Borrow same	copy" name="And I create a copy &quot;1234567890432&quot;" time="0.001"/>
+  <testcase classname="Scenario: Ti4	Borrow same	copy" name="When I have the user borrow the copy &quot;darren@carleton.ca,1234567890432,1&quot;" time="0"/>
+  <testcase classname="Scenario: Ti4	Borrow same	copy" name="And I have the user borrow the copy &quot;will@carleton.ca,1234567890432,1&quot;" time="0"/>
+  <testcase classname="Scenario: Ti4	Borrow same	copy" name="Then I will receive the message &quot;The Item is Not Available!&quot;" time="0"/>
+  <testcase classname="Scenario: Ti4	Borrow same	copy" name="Scenario: Ti4	Borrow same	copy" time="0"/>
+  <testcase classname="Scenario: Ti5 Borrow	renewed	copy" name="Given I create the user &quot;mark@carleton.ca,pass&quot;" time="0"/>
+  <testcase classname="Scenario: Ti5 Borrow	renewed	copy" name="And I create the user &quot;vincent@carleton.ca,pass&quot;" time="0"/>
+  <testcase classname="Scenario: Ti5 Borrow	renewed	copy" name="And I create the title &quot;1114567890432,new book&quot;" time="0"/>
+  <testcase classname="Scenario: Ti5 Borrow	renewed	copy" name="And I create a copy &quot;1114567890432&quot;" time="0"/>
+  <testcase classname="Scenario: Ti5 Borrow	renewed	copy" name="When I have the user borrow the copy &quot;mark@carleton.ca,1114567890432,1&quot;" time="0"/>
+  <testcase classname="Scenario: Ti5 Borrow	renewed	copy" name="And I have the user renew the copy &quot;mark@carleton.ca,1114567890432,1&quot;" time="0"/>
+  <testcase classname="Scenario: Ti5 Borrow	renewed	copy" name="And I have the user borrow the copy &quot;vincent@carleton.ca,1114567890432,1&quot;" time="0"/>
+  <testcase classname="Scenario: Ti5 Borrow	renewed	copy" name="Then I will receive the message &quot;The Item is Not Available!&quot;" time="0.001"/>
+  <testcase classname="Scenario: Ti5 Borrow	renewed	copy" name="Scenario: Ti5 Borrow	renewed	copy" time="0.001"/>
+  <testcase classname="Scenario: Ti6 Borrow	returned copy	taken	by other	user" name="Given I create the user &quot;clarence@carleton.ca,pass&quot;" time="0"/>
+  <testcase classname="Scenario: Ti6 Borrow	returned copy	taken	by other	user" name="And I create the user &quot;george@carleton.ca,pass&quot;" time="0.001"/>
+  <testcase classname="Scenario: Ti6 Borrow	returned copy	taken	by other	user" name="And I create the title &quot;2224567890432,old book&quot;" time="0"/>
+  <testcase classname="Scenario: Ti6 Borrow	returned copy	taken	by other	user" name="And I create a copy &quot;2224567890432&quot;" time="0"/>
+  <testcase classname="Scenario: Ti6 Borrow	returned copy	taken	by other	user" name="When I have the user borrow the copy &quot;clarence@carleton.ca,2224567890432,1&quot;" time="0"/>
+  <testcase classname="Scenario: Ti6 Borrow	returned copy	taken	by other	user" name="And I have the user return the copy &quot;clarence@carleton.ca,2224567890432,1&quot;" time="0"/>
+  <testcase classname="Scenario: Ti6 Borrow	returned copy	taken	by other	user" name="And I have the user borrow the copy &quot;george@carleton.ca,2224567890432,1&quot;" time="0.001"/>
+  <testcase classname="Scenario: Ti6 Borrow	returned copy	taken	by other	user" name="And I have the user borrow the copy &quot;clarence@carleton.ca,2224567890432,1&quot;" time="0"/>
+  <testcase classname="Scenario: Ti6 Borrow	returned copy	taken	by other	user" name="Then I will receive the message &quot;The Item is Not Available!&quot;" time="0.001"/>
+  <testcase classname="Scenario: Ti6 Borrow	returned copy	taken	by other	user" name="Scenario: Ti6 Borrow	returned copy	taken	by other	user" time="0.001"/>
+  <testcase classname="Scenario: Ti7 Borrow over max limit" name="Given I create the user &quot;Joan@carleton.ca,pass&quot;" time="0"/>
+  <testcase classname="Scenario: Ti7 Borrow over max limit" name="And I create the title &quot;2224567899432,old booker&quot;" time="0.001"/>
+  <testcase classname="Scenario: Ti7 Borrow over max limit" name="And I create the title &quot;2221567890432,b&quot;" time="0"/>
+  <testcase classname="Scenario: Ti7 Borrow over max limit" name="And I create the title &quot;2221567890499, book&quot;" time="0.001"/>
+  <testcase classname="Scenario: Ti7 Borrow over max limit" name="And I create a copy &quot;2224567899432&quot;" time="0"/>
+  <testcase classname="Scenario: Ti7 Borrow over max limit" name="And I create a copy &quot;2221567890432&quot;" time="0"/>
+  <testcase classname="Scenario: Ti7 Borrow over max limit" name="And I create a copy &quot;2221567890499&quot;" time="0"/>
+  <testcase classname="Scenario: Ti7 Borrow over max limit" name="When I have the user borrow the copy &quot;Joan@carleton.ca,2224567899432,1&quot;" time="0"/>
+  <testcase classname="Scenario: Ti7 Borrow over max limit" name="And I have the user borrow the copy &quot;Joan@carleton.ca,2221567890432,1&quot;" time="0"/>
+  <testcase classname="Scenario: Ti7 Borrow over max limit" name="And I have the user borrow the copy &quot;Joan@carleton.ca,2221567890499,1&quot;" time="0"/>
+  <testcase classname="Scenario: Ti7 Borrow over max limit" name="Then I will receive the message &quot;The Maximun Number of Items is Reached!&quot;" time="0"/>
+  <testcase classname="Scenario: Ti7 Borrow over max limit" name="Scenario: Ti7 Borrow over max limit" time="0"/>
+  <testcase classname="Scenario: Ti8 Borrow over max	limit after return" name="Given I create the user &quot;Joanne@carleton.ca,pass&quot;" time="0"/>
+  <testcase classname="Scenario: Ti8 Borrow over max	limit after return" name="And I create the title &quot;2224564829432,old booker&quot;" time="0"/>
+  <testcase classname="Scenario: Ti8 Borrow over max	limit after return" name="And I create the title &quot;2124564829432,b&quot;" time="0"/>
+  <testcase classname="Scenario: Ti8 Borrow over max	limit after return" name="And I create the title &quot;2221564289099, book&quot;" time="0"/>
+  <testcase classname="Scenario: Ti8 Borrow over max	limit after return" name="And I create a copy &quot;2224564829432&quot;" time="0"/>
+  <testcase classname="Scenario: Ti8 Borrow over max	limit after return" name="And I create a copy &quot;2124564829432&quot;" time="0"/>
+  <testcase classname="Scenario: Ti8 Borrow over max	limit after return" name="And I create a copy &quot;2124564829432&quot;" time="0"/>
+  <testcase classname="Scenario: Ti8 Borrow over max	limit after return" name="And I create a copy &quot;2221564289099&quot;" time="0"/>
+  <testcase classname="Scenario: Ti8 Borrow over max	limit after return" name="When I have the user borrow the copy &quot;Joanne@carleton.ca,2224564829432,1&quot;" time="0"/>
+  <testcase classname="Scenario: Ti8 Borrow over max	limit after return" name="And I have the user borrow the copy &quot;Joanne@carleton.ca,2124564829432,1&quot;" time="0"/>
+  <testcase classname="Scenario: Ti8 Borrow over max	limit after return" name="And I have the user return the copy &quot;Joanne@carleton.ca,2124564829432,1&quot;" time="0"/>
+  <testcase classname="Scenario: Ti8 Borrow over max	limit after return" name="And I have the user borrow the copy &quot;Joanne@carleton.ca,2221564289099,1&quot;" time="0.001"/>
+  <testcase classname="Scenario: Ti8 Borrow over max	limit after return" name="And I have the user borrow the copy &quot;Joanne@carleton.ca,2124564829432,1&quot;" time="0"/>
+  <testcase classname="Scenario: Ti8 Borrow over max	limit after return" name="Then I will receive the message &quot;The Maximun Number of Items is Reached!&quot;" time="0"/>
+  <testcase classname="Scenario: Ti8 Borrow over max	limit after return" name="Scenario: Ti8 Borrow over max	limit after return" time="0"/>
+  <testcase classname="Scenario: Ti17 Borrow Outstanding Fees" name="Given I am logged in as user Zhibo@carleton.ca" time="0"/>
+  <testcase classname="Scenario: Ti17 Borrow Outstanding Fees" name="And I have outstanding fees" time="0"/>
+  <testcase classname="Scenario: Ti17 Borrow Outstanding Fees" name="And I create the title &quot;1234567890753,old booker&quot;" time="0"/>
+  <testcase classname="Scenario: Ti17 Borrow Outstanding Fees" name="And I create a copy &quot;1234567890753&quot;" time="0"/>
+  <testcase classname="Scenario: Ti17 Borrow Outstanding Fees" name="When I have the user borrow the copy &quot;Zhibo@carleton.ca,1234567890753,1&quot;" time="0"/>
+  <testcase classname="Scenario: Ti17 Borrow Outstanding Fees" name="Then I will receive the message &quot;Outstanding Fee Exists!&quot;" time="0"/>
+  <testcase classname="Scenario: Ti17 Borrow Outstanding Fees" name="Scenario: Ti17 Borrow Outstanding Fees" time="0.003"/>
+  <testcase classname="Scenario: Ti24 Pay Fine Loan Exists" name="Given The user Yu@carleton.ca has an outstanding loan" time="0"/>
+  <testcase classname="Scenario: Ti24 Pay Fine Loan Exists" name="When I attempt to remove the user &quot;Yu@carleton.ca&quot;" time="0"/>
+  <testcase classname="Scenario: Ti24 Pay Fine Loan Exists" name="Then I will receive the message &quot;Active Loan Exists!&quot;" time="0"/>
+  <testcase classname="Scenario: Ti24 Pay Fine Loan Exists" name="Scenario: Ti24 Pay Fine Loan Exists" time="0"/>
+  <testcase classname="Scenario: Ti9 Remove	Non-existent	Item" name="Given I create the title &quot;1234567890765,book&quot;" time="0"/>
+  <testcase classname="Scenario: Ti9 Remove	Non-existent	Item" name="And I create a copy &quot;1234567890765&quot;" time="0"/>
+  <testcase classname="Scenario: Ti9 Remove	Non-existent	Item" name="When I try and remove &quot;1234567890765,2&quot;" time="0"/>
+  <testcase classname="Scenario: Ti9 Remove	Non-existent	Item" name="Then I will receive the message &quot;The Item Does Not Exist!&quot;" time="0"/>
+  <testcase classname="Scenario: Ti9 Remove	Non-existent	Item" name="Scenario: Ti9 Remove	Non-existent	Item" time="0"/>
+  <testcase classname="Scenario: Ti10 Remove Borrowed Item" name="Given I create the user &quot;warren@carleton.ca,password&quot;" time="0.001"/>
+  <testcase classname="Scenario: Ti10 Remove Borrowed Item" name="And I create the title &quot;1234547890765,book&quot;" time="0"/>
+  <testcase classname="Scenario: Ti10 Remove Borrowed Item" name="And I create a copy &quot;1234547890765&quot;" time="0"/>
+  <testcase classname="Scenario: Ti10 Remove Borrowed Item" name="And I have the user borrow the copy &quot;warren@carleton.ca,1234547890765,1&quot;" time="0"/>
+  <testcase classname="Scenario: Ti10 Remove Borrowed Item" name="When I try and remove &quot;1234547890765,1&quot;" time="0"/>
+  <testcase classname="Scenario: Ti10 Remove Borrowed Item" name="Then I will receive the message &quot;Active Loan Exists!&quot;" time="0"/>
+  <testcase classname="Scenario: Ti10 Remove Borrowed Item" name="Scenario: Ti10 Remove Borrowed Item" time="0"/>
+  <testcase classname="Scenario: Ti11 Remove Borrowed/Renewed Item" name="Given I create the user &quot;plies@carleton.ca,password&quot;" time="0"/>
+  <testcase classname="Scenario: Ti11 Remove Borrowed/Renewed Item" name="And I create the title &quot;1234547890456,book&quot;" time="0"/>
+  <testcase classname="Scenario: Ti11 Remove Borrowed/Renewed Item" name="And I create a copy &quot;1234547890456&quot;" time="0"/>
+  <testcase classname="Scenario: Ti11 Remove Borrowed/Renewed Item" name="And I have the user borrow the copy &quot;plies@carleton.ca,1234547890456,1&quot;" time="0"/>
+  <testcase classname="Scenario: Ti11 Remove Borrowed/Renewed Item" name="And I have the user renew the copy &quot;plies@carleton.ca,1234547890456,1&quot;" time="0"/>
+  <testcase classname="Scenario: Ti11 Remove Borrowed/Renewed Item" name="When I try and remove &quot;1234547890456,1&quot;" time="0.001"/>
+  <testcase classname="Scenario: Ti11 Remove Borrowed/Renewed Item" name="Then I will receive the message &quot;Active Loan Exists!&quot;" time="0"/>
+  <testcase classname="Scenario: Ti11 Remove Borrowed/Renewed Item" name="Scenario: Ti11 Remove Borrowed/Renewed Item" time="0.001"/>
+  <testcase classname="Scenario: Ti12 Remove Title That Still Has A Copy" name="Given I create the title &quot;1435547890456,book&quot;" time="0"/>
+  <testcase classname="Scenario: Ti12 Remove Title That Still Has A Copy" name="And I create a copy &quot;1435547890456&quot;" time="0"/>
+  <testcase classname="Scenario: Ti12 Remove Title That Still Has A Copy" name="When I try and remove the title &quot;1435547890456&quot;" time="0"/>
+  <testcase classname="Scenario: Ti12 Remove Title That Still Has A Copy" name="Then I will receive the message &quot;Success!&quot;" time="0"/>
+  <testcase classname="Scenario: Ti12 Remove Title That Still Has A Copy" name="Scenario: Ti12 Remove Title That Still Has A Copy" time="0"/>
+  <testcase classname="Scenario: Ti13 Remove Title That Has Borrowed Copy" name="Given I create the user &quot;alex@carleton.ca,book&quot;" time="0"/>
+  <testcase classname="Scenario: Ti13 Remove Title That Has Borrowed Copy" name="And I create the title &quot;1435547999456,book&quot;" time="0"/>
+  <testcase classname="Scenario: Ti13 Remove Title That Has Borrowed Copy" name="And I create a copy &quot;1435547999456&quot;" time="0"/>
+  <testcase classname="Scenario: Ti13 Remove Title That Has Borrowed Copy" name="And I have the user borrow the copy &quot;alex@carleton.ca,1435547999456,1&quot;" time="0"/>
+  <testcase classname="Scenario: Ti13 Remove Title That Has Borrowed Copy" name="When I try and remove the title &quot;1435547999456&quot;" time="0"/>
+  <testcase classname="Scenario: Ti13 Remove Title That Has Borrowed Copy" name="Then I will receive the message &quot;Active Loan Exists!&quot;" time="0"/>
+  <testcase classname="Scenario: Ti13 Remove Title That Has Borrowed Copy" name="Scenario: Ti13 Remove Title That Has Borrowed Copy" time="0"/>
+  <testcase classname="Scenario: Ti14 Remove Title That Has Copy" name="Given I create the user &quot;todd@carleton.ca,book&quot;" time="0"/>
+  <testcase classname="Scenario: Ti14 Remove Title That Has Copy" name="And I create the title &quot;9435587999456,book&quot;" time="0"/>
+  <testcase classname="Scenario: Ti14 Remove Title That Has Copy" name="And I create a copy &quot;9435587999456&quot;" time="0"/>
+  <testcase classname="Scenario: Ti14 Remove Title That Has Copy" name="And I create a copy &quot;9435587999456&quot;" time="0"/>
+  <testcase classname="Scenario: Ti14 Remove Title That Has Copy" name="And I remove the copy &quot;9435587999456,2&quot;" time="0"/>
+  <testcase classname="Scenario: Ti14 Remove Title That Has Copy" name="When I try and remove the title &quot;9435587999456&quot;" time="0"/>
+  <testcase classname="Scenario: Ti14 Remove Title That Has Copy" name="Then I will receive the message &quot;Success!&quot;" time="0"/>
+  <testcase classname="Scenario: Ti14 Remove Title That Has Copy" name="Scenario: Ti14 Remove Title That Has Copy" time="0"/>
+  <testcase classname="Scenario: Ti18 Remove Title That Does Not Exist" name="Given the title does not exist" time="0"/>
+  <testcase classname="Scenario: Ti18 Remove Title That Does Not Exist" name="When I try and remove the title &quot;9435587994444&quot;" time="0"/>
+  <testcase classname="Scenario: Ti18 Remove Title That Does Not Exist" name="Then I will receive the message &quot;The Title Does Not Exist!&quot;" time="0"/>
+  <testcase classname="Scenario: Ti18 Remove Title That Does Not Exist" name="Scenario: Ti18 Remove Title That Does Not Exist" time="0"/>
+  <testcase classname="Scenario: Ti15 Remove Non-existent User" name="Given The user Carlos@carleton.ca has not been created" time="0"/>
+  <testcase classname="Scenario: Ti15 Remove Non-existent User" name="When I attempt to remove the user &quot;Carlos@carleton.ca&quot;" time="0"/>
+  <testcase classname="Scenario: Ti15 Remove Non-existent User" name="Then I will receive the message &quot;The User Does Not Exist!&quot;" time="0"/>
+  <testcase classname="Scenario: Ti15 Remove Non-existent User" name="Scenario: Ti15 Remove Non-existent User" time="0"/>
+  <testcase classname="Scenario: Ti19 Remove Outstanding Fees" name="Given The user Zhibo@carleton.ca has outstanding fees" time="0"/>
+  <testcase classname="Scenario: Ti19 Remove Outstanding Fees" name="When I attempt to remove the user &quot;Zhibo@carleton.ca&quot;" time="0"/>
+  <testcase classname="Scenario: Ti19 Remove Outstanding Fees" name="Then I will receive the message &quot;Outstanding Fee Exists!&quot;" time="0"/>
+  <testcase classname="Scenario: Ti19 Remove Outstanding Fees" name="Scenario: Ti19 Remove Outstanding Fees" time="0.001"/>
+  <testcase classname="Scenario: Ti20 Remove Active Loan Exists" name="Given The user Yu@carleton.ca has an outstanding loan" time="0"/>
+  <testcase classname="Scenario: Ti20 Remove Active Loan Exists" name="When I attempt to remove the user &quot;Yu@carleton.ca&quot;" time="0"/>
+  <testcase classname="Scenario: Ti20 Remove Active Loan Exists" name="Then I will receive the message &quot;Active Loan Exists!&quot;" time="0"/>
+  <testcase classname="Scenario: Ti20 Remove Active Loan Exists" name="Scenario: Ti20 Remove Active Loan Exists" time="0"/>
+  <testcase classname="Scenario: Ti16 Renew Returned Item" name="Given I create the user &quot;ChuckD@carleton.ca,pass&quot;" time="0"/>
+  <testcase classname="Scenario: Ti16 Renew Returned Item" name="And I create the title &quot;1234567891456,stank city&quot;" time="0"/>
+  <testcase classname="Scenario: Ti16 Renew Returned Item" name="And I create a copy &quot;1234567891456&quot;" time="0"/>
+  <testcase classname="Scenario: Ti16 Renew Returned Item" name="When I have the user borrow the copy &quot;ChuckD@carleton.ca,1234567891456,1&quot;" time="0"/>
+  <testcase classname="Scenario: Ti16 Renew Returned Item" name="And I have the user return the copy &quot;ChuckD@carleton.ca,1234567891456,1&quot;" time="0"/>
+  <testcase classname="Scenario: Ti16 Renew Returned Item" name="And I have the user renew the copy &quot;ChuckD@carleton.ca,1234567891456,1&quot;" time="0"/>
+  <testcase classname="Scenario: Ti16 Renew Returned Item" name="Then I will receive the message &quot;The loan does not exist!&quot;" time="0"/>
+  <testcase classname="Scenario: Ti16 Renew Returned Item" name="Scenario: Ti16 Renew Returned Item" time="0"/>
+  <testcase classname="Scenario: Ti21 Renew Oustanding Fees" name="Given The user Zhibo@carleton.ca has outstanding fees" time="0"/>
+  <testcase classname="Scenario: Ti21 Renew Oustanding Fees" name="When I have the user renew the copy &quot;Zhibo@carleton.ca,9781442668584,1&quot;" time="0"/>
+  <testcase classname="Scenario: Ti21 Renew Oustanding Fees" name="Then I will receive the message &quot;Outstanding Fee Exists!&quot;" time="0"/>
+  <testcase classname="Scenario: Ti21 Renew Oustanding Fees" name="Scenario: Ti21 Renew Oustanding Fees" time="0.002"/>
+  <testcase classname="Scenario: Ti22 Renew Item More Than Twice" name="Given I create the user &quot;Chuck1@carleton.ca,pass&quot;" time="0"/>
+  <testcase classname="Scenario: Ti22 Renew Item More Than Twice" name="And I create the title &quot;1999567891456,stank city&quot;" time="0"/>
+  <testcase classname="Scenario: Ti22 Renew Item More Than Twice" name="And I create a copy &quot;1999567891456&quot;" time="0.001"/>
+  <testcase classname="Scenario: Ti22 Renew Item More Than Twice" name="When I have the user borrow the copy &quot;Chuck1@carleton.ca,1999567891456,1&quot;" time="0"/>
+  <testcase classname="Scenario: Ti22 Renew Item More Than Twice" name="And I have the user renew the copy &quot;Chuck1@carleton.ca,1999567891456,1&quot;" time="0"/>
+  <testcase classname="Scenario: Ti22 Renew Item More Than Twice" name="And I have the user renew the copy &quot;Chuck1@carleton.ca,1999567891456,1&quot;" time="0"/>
+  <testcase classname="Scenario: Ti22 Renew Item More Than Twice" name="Then I will receive the message &quot;Renewed Item More Than Once for the Same Loan!&quot;" time="0"/>
+  <testcase classname="Scenario: Ti22 Renew Item More Than Twice" name="Scenario: Ti22 Renew Item More Than Twice" time="0.002"/>
+  <testcase classname="Scenario: Ti23 Renew Max Items Reached" name="Given I create the user &quot;alison1@carleton.ca,pass&quot;" time="0"/>
+  <testcase classname="Scenario: Ti23 Renew Max Items Reached" name="And I create the title &quot;1834544491456,1 city&quot;" time="0"/>
+  <testcase classname="Scenario: Ti23 Renew Max Items Reached" name="And I create the title &quot;1834576591456,2 city&quot;" time="0"/>
+  <testcase classname="Scenario: Ti23 Renew Max Items Reached" name="And I create a copy &quot;1834544491456&quot;" time="0"/>
+  <testcase classname="Scenario: Ti23 Renew Max Items Reached" name="And I create a copy &quot;1834544491456&quot;" time="0"/>
+  <testcase classname="Scenario: Ti23 Renew Max Items Reached" name="And I create a copy &quot;1834576591456&quot;" time="0.001"/>
+  <testcase classname="Scenario: Ti23 Renew Max Items Reached" name="And I create a copy &quot;1834576591456&quot;" time="0"/>
+  <testcase classname="Scenario: Ti23 Renew Max Items Reached" name="When I have the user borrow the copy &quot;alison1@carleton.ca,1834544491456,1&quot;" time="0"/>
+  <testcase classname="Scenario: Ti23 Renew Max Items Reached" name="And I have the user borrow the copy &quot;alison1@carleton.ca,1834576591456,2&quot;" time="0"/>
+  <testcase classname="Scenario: Ti23 Renew Max Items Reached" name="And I have the user renew the copy &quot;alison1@carleton.ca,1834544491456,1&quot;" time="0.002"/>
+  <testcase classname="Scenario: Ti23 Renew Max Items Reached" name="Then I will receive the message &quot;The Maximun Number of Items is Reached!&quot;" time="0"/>
+  <testcase classname="Scenario: Ti23 Renew Max Items Reached" name="Scenario: Ti23 Renew Max Items Reached" time="0.003"/>
+  <testcase classname="Scenario: Ti25 Return Copy That Does Not Exist" name="Given The loan to Zhibo@carleton.ca does not exist" time="0"/>
+  <testcase classname="Scenario: Ti25 Return Copy That Does Not Exist" name="When I have the user return the copy &quot;Zhibo@carleton.ca,1999567891456,1&quot;" time="0"/>
+  <testcase classname="Scenario: Ti25 Return Copy That Does Not Exist" name="Then I will receive the message &quot;The Loan Does Not Exist!&quot;" time="0"/>
+  <testcase classname="Scenario: Ti25 Return Copy That Does Not Exist" name="Scenario: Ti25 Return Copy That Does Not Exist" time="0"/>
+  <testcase classname="Scenario: Tv5 Add Item" name="Given I create the title &quot;1234567890147,book&quot;" time="0"/>
+  <testcase classname="Scenario: Tv5 Add Item" name="When I create a copy &quot;1234567890147&quot;" time="0"/>
+  <testcase classname="Scenario: Tv5 Add Item" name="Then I will receive the message &quot;Success!&quot;" time="0"/>
+  <testcase classname="Scenario: Tv5 Add Item" name="Scenario: Tv5 Add Item" time="0"/>
+  <testcase classname="Scenario: Tv6 Add Item" name="Given I create the title &quot;2234567890147,book&quot;" time="0"/>
+  <testcase classname="Scenario: Tv6 Add Item" name="When I create a copy &quot;2234567890147&quot;" time="0.001"/>
+  <testcase classname="Scenario: Tv6 Add Item" name="And I create a copy &quot;2234567890147&quot;" time="0"/>
+  <testcase classname="Scenario: Tv6 Add Item" name="And I create a copy &quot;2234567890147&quot;" time="0"/>
+  <testcase classname="Scenario: Tv6 Add Item" name="Then I will receive the message &quot;Success!&quot;" time="0"/>
+  <testcase classname="Scenario: Tv6 Add Item" name="Scenario: Tv6 Add Item" time="0"/>
+  <testcase classname="Scenario: Tv7 Add Item" name="Given I create the title &quot;3234567890147,book&quot;" time="0"/>
+  <testcase classname="Scenario: Tv7 Add Item" name="And I create a copy &quot;3234567890147&quot;" time="0"/>
+  <testcase classname="Scenario: Tv7 Add Item" name="And I create a copy &quot;3234567890147&quot;" time="0"/>
+  <testcase classname="Scenario: Tv7 Add Item" name="And I create a copy &quot;3234567890147&quot;" time="0"/>
+  <testcase classname="Scenario: Tv7 Add Item" name="And I try and remove &quot;3234567890147,2&quot;" time="0"/>
+  <testcase classname="Scenario: Tv7 Add Item" name="When I create a copy &quot;3234567890147&quot;" time="0"/>
+  <testcase classname="Scenario: Tv7 Add Item" name="And I create a copy &quot;3234567890147&quot;" time="0"/>
+  <testcase classname="Scenario: Tv7 Add Item" name="Then I will receive the message &quot;Success!&quot;" time="0"/>
+  <testcase classname="Scenario: Tv7 Add Item" name="Scenario: Tv7 Add Item" time="0"/>
+  <testcase classname="Scenario: Tv3 Add Title" name="Given that the title and ISBN does not exist" time="0"/>
+  <testcase classname="Scenario: Tv3 Add Title" name="When I create the title &quot;7894561230147,item book&quot;" time="0"/>
+  <testcase classname="Scenario: Tv3 Add Title" name="Then I will receive the message &quot;Success!&quot;" time="0"/>
+  <testcase classname="Scenario: Tv3 Add Title" name="Scenario: Tv3 Add Title" time="0"/>
+  <testcase classname="Scenario: Tv4 Add Title" name="Given I create the title &quot;1234567890147,book&quot;" time="0"/>
+  <testcase classname="Scenario: Tv4 Add Title" name="When I try and remove the title &quot;1234567890147&quot;" time="0.008"/>
+  <testcase classname="Scenario: Tv4 Add Title" name="And I create the title &quot;1234567890147,book&quot;" time="0"/>
+  <testcase classname="Scenario: Tv4 Add Title" name="Then I will receive the message &quot;Success!&quot;" time="0"/>
+  <testcase classname="Scenario: Tv4 Add Title" name="Scenario: Tv4 Add Title" time="0"/>
+  <testcase classname="Scenario: Tv1 Add	User" name="Given that the user &quot;Joe@carleton.ca&quot; does not exist" time="0"/>
+  <testcase classname="Scenario: Tv1 Add	User" name="When I create the user &quot;Joe@carleton.ca,pass&quot;" time="0"/>
+  <testcase classname="Scenario: Tv1 Add	User" name="Then I will receive the message &quot;Success!&quot;" time="0"/>
+  <testcase classname="Scenario: Tv1 Add	User" name="Scenario: Tv1 Add	User" time="0"/>
+  <testcase classname="Scenario: Tv2 Add	User" name="Given I create the user &quot;Toe@carleton.ca,pass&quot;" time="0"/>
+  <testcase classname="Scenario: Tv2 Add	User" name="When I attempt to remove the user &quot;Toe@carleton.ca&quot;" time="0"/>
+  <testcase classname="Scenario: Tv2 Add	User" name="And trying to create &quot;Toe@carleton.ca,pass&quot; again" time="0"/>
+  <testcase classname="Scenario: Tv2 Add	User" name="Then I will receive the message &quot;Success!&quot;" time="0"/>
+  <testcase classname="Scenario: Tv2 Add	User" name="Scenario: Tv2 Add	User" time="0"/>
+  <testcase classname="Scenario: Tv8	Borrow" name="Given I create the user &quot;dirk@carleton.ca,pass&quot;" time="0"/>
+  <testcase classname="Scenario: Tv8	Borrow" name="And I create the user &quot;thom@carleton.ca,pass&quot;" time="0"/>
+  <testcase classname="Scenario: Tv8	Borrow" name="And I create the title &quot;5234567890432,The stanky cheese man&quot;" time="0"/>
+  <testcase classname="Scenario: Tv8	Borrow" name="And I create the title &quot;1234567892432,The man&quot;" time="0"/>
+  <testcase classname="Scenario: Tv8	Borrow" name="And I create a copy &quot;5234567890432&quot;" time="0"/>
+  <testcase classname="Scenario: Tv8	Borrow" name="And I create a copy &quot;5234567890432&quot;" time="0"/>
+  <testcase classname="Scenario: Tv8	Borrow" name="And I create a copy &quot;5234567890432&quot;" time="0"/>
+  <testcase classname="Scenario: Tv8	Borrow" name="And I create a copy &quot;1234567892432&quot;" time="0"/>
+  <testcase classname="Scenario: Tv8	Borrow" name="And I create a copy &quot;1234567892432&quot;" time="0"/>
+  <testcase classname="Scenario: Tv8	Borrow" name="And I create a copy &quot;1234567892432&quot;" time="0"/>
+  <testcase classname="Scenario: Tv8	Borrow" name="When I have the user borrow the copy &quot;dirk@carleton.ca,1234567892432,3&quot;" time="0"/>
+  <testcase classname="Scenario: Tv8	Borrow" name="And I have the user borrow the copy &quot;thom@carleton.ca,1234567892432,2&quot;" time="0"/>
+  <testcase classname="Scenario: Tv8	Borrow" name="Then I will receive the message &quot;Success!&quot;" time="0"/>
+  <testcase classname="Scenario: Tv8	Borrow" name="Scenario: Tv8	Borrow" time="0"/>
+  <testcase classname="Scenario: Tv15	Borrow" name="Given I create the user &quot;dirkyl@carleton.ca,pass&quot;" time="0"/>
+  <testcase classname="Scenario: Tv15	Borrow" name="And I create the user &quot;thomas@carleton.ca,pass&quot;" time="0"/>
+  <testcase classname="Scenario: Tv15	Borrow" name="And I create the title &quot;9934567890432,The stanky cheese man&quot;" time="0"/>
+  <testcase classname="Scenario: Tv15	Borrow" name="And I create the title &quot;8734567892432,The man&quot;" time="0"/>
+  <testcase classname="Scenario: Tv15	Borrow" name="And I create a copy &quot;9934567890432&quot;" time="0"/>
+  <testcase classname="Scenario: Tv15	Borrow" name="And I create a copy &quot;9934567890432&quot;" time="0.001"/>
+  <testcase classname="Scenario: Tv15	Borrow" name="And I create a copy &quot;9934567890432&quot;" time="0"/>
+  <testcase classname="Scenario: Tv15	Borrow" name="And I create a copy &quot;8734567892432&quot;" time="0"/>
+  <testcase classname="Scenario: Tv15	Borrow" name="And I create a copy &quot;8734567892432&quot;" time="0"/>
+  <testcase classname="Scenario: Tv15	Borrow" name="And I create a copy &quot;8734567892432&quot;" time="0"/>
+  <testcase classname="Scenario: Tv15	Borrow" name="When I have the user borrow the copy &quot;dirkyl@carleton.ca,9934567890432,1&quot;" time="0"/>
+  <testcase classname="Scenario: Tv15	Borrow" name="And I have the user borrow the copy &quot;dirkyl@carleton.ca,8734567892432,3&quot;" time="0"/>
+  <testcase classname="Scenario: Tv15	Borrow" name="And I have the user borrow the copy &quot;thomas@carleton.ca,9934567890432,2&quot;" time="0"/>
+  <testcase classname="Scenario: Tv15	Borrow" name="And I have the user borrow the copy &quot;thomas@carleton.ca,8734567892432,2&quot;" time="0"/>
+  <testcase classname="Scenario: Tv15	Borrow" name="And I have the user return the copy &quot;dirkyl@carleton.ca,9934567890432,1&quot;" time="0"/>
+  <testcase classname="Scenario: Tv15	Borrow" name="And I have the user return the copy &quot;dirkyl@carleton.ca,8734567892432,3&quot;" time="0"/>
+  <testcase classname="Scenario: Tv15	Borrow" name="And I have the user return the copy &quot;thomas@carleton.ca,9934567890432,2&quot;" time="0.001"/>
+  <testcase classname="Scenario: Tv15	Borrow" name="And I have the user return the copy &quot;thomas@carleton.ca,8734567892432,2&quot;" time="0"/>
+  <testcase classname="Scenario: Tv15	Borrow" name="And I have the user borrow the copy &quot;thomas@carleton.ca,9934567890432,1&quot;" time="0"/>
+  <testcase classname="Scenario: Tv15	Borrow" name="And I have the user borrow the copy &quot;thomas@carleton.ca,8734567892432,3&quot;" time="0"/>
+  <testcase classname="Scenario: Tv15	Borrow" name="Then I will receive the message &quot;Success!&quot;" time="0"/>
+  <testcase classname="Scenario: Tv15	Borrow" name="Scenario: Tv15	Borrow" time="0"/>
+  <testcase classname="Scenario: Ti26 Pay Fine Loan Exists" name="Given The user Sun@carleton.ca has outstanding fees" time="0"/>
+  <testcase classname="Scenario: Ti26 Pay Fine Loan Exists" name="When I try and pay fine for &quot;Sun@carleton.ca&quot;" time="0.001"/>
+  <testcase classname="Scenario: Ti26 Pay Fine Loan Exists" name="Then I will receive the message &quot;Success!&quot;" time="0"/>
+  <testcase classname="Scenario: Ti26 Pay Fine Loan Exists" name="Scenario: Ti26 Pay Fine Loan Exists" time="0"/>
+  <testcase classname="Scenario: Ti9 Remove Item" name="Given I create the title &quot;5534567890765,book1&quot;" time="0"/>
+  <testcase classname="Scenario: Ti9 Remove Item" name="And I create the title &quot;5934567890765,book2&quot;" time="0"/>
+  <testcase classname="Scenario: Ti9 Remove Item" name="And I create a copy &quot;5534567890765&quot;" time="0"/>
+  <testcase classname="Scenario: Ti9 Remove Item" name="And I create a copy &quot;5534567890765&quot;" time="0"/>
+  <testcase classname="Scenario: Ti9 Remove Item" name="And I create a copy &quot;5534567890765&quot;" time="0"/>
+  <testcase classname="Scenario: Ti9 Remove Item" name="And I create a copy &quot;5934567890765&quot;" time="0"/>
+  <testcase classname="Scenario: Ti9 Remove Item" name="And I create a copy &quot;5934567890765&quot;" time="0"/>
+  <testcase classname="Scenario: Ti9 Remove Item" name="And I create a copy &quot;5934567890765&quot;" time="0"/>
+  <testcase classname="Scenario: Ti9 Remove Item" name="When I try and remove &quot;5534567890765,2&quot;" time="0"/>
+  <testcase classname="Scenario: Ti9 Remove Item" name="And I try and remove &quot;5934567890765,1&quot;" time="0.003"/>
+  <testcase classname="Scenario: Ti9 Remove Item" name="And I try and remove &quot;5934567890765,3&quot;" time="0"/>
+  <testcase classname="Scenario: Ti9 Remove Item" name="Then I will receive the message &quot;Success!&quot;" time="0"/>
+  <testcase classname="Scenario: Ti9 Remove Item" name="Scenario: Ti9 Remove Item" time="0"/>
+  <testcase classname="Scenario: Tv10 Remove	Title" name="Given I create the title &quot;1435547890456,book&quot;" time="0.001"/>
+  <testcase classname="Scenario: Tv10 Remove	Title" name="When I try and remove the title &quot;1435547890456&quot;" time="0"/>
+  <testcase classname="Scenario: Tv10 Remove	Title" name="Then I will receive the message &quot;Success!&quot;" time="0"/>
+  <testcase classname="Scenario: Tv10 Remove	Title" name="Scenario: Tv10 Remove	Title" time="0"/>
+  <testcase classname="Scenario: Tv12 Remove	title" name="Given I create the user &quot;Tge@carleton.ca,pass&quot;" time="0"/>
+  <testcase classname="Scenario: Tv12 Remove	title" name="And I create the title &quot;1435587890456,book&quot;" time="0"/>
+  <testcase classname="Scenario: Tv12 Remove	title" name="And I create a copy &quot;1435587890456&quot;" time="0"/>
+  <testcase classname="Scenario: Tv12 Remove	title" name="When I have the user borrow the copy &quot;Tge@carleton.ca,1435587890456,1&quot;" time="0.001"/>
+  <testcase classname="Scenario: Tv12 Remove	title" name="And I have the user return the copy &quot;Tge@carleton.ca,1435587890456,1&quot;" time="0"/>
+  <testcase classname="Scenario: Tv12 Remove	title" name="And I try and remove &quot;1435587890456,1&quot;" time="0"/>
+  <testcase classname="Scenario: Tv12 Remove	title" name="And I try and remove the title &quot;1435587890456&quot;" time="0"/>
+  <testcase classname="Scenario: Tv12 Remove	title" name="Then I will receive the message &quot;Success!&quot;" time="0"/>
+  <testcase classname="Scenario: Tv12 Remove	title" name="Scenario: Tv12 Remove	title" time="0"/>
+  <testcase classname="Scenario: Tv11 Remove User" name="Given I create the user &quot;Carlos@carleton.ca,pass&quot;" time="0"/>
+  <testcase classname="Scenario: Tv11 Remove User" name="When I attempt to remove the user &quot;Carlos@carleton.ca&quot;" time="0"/>
+  <testcase classname="Scenario: Tv11 Remove User" name="Then I will receive the message &quot;Success!&quot;" time="0"/>
+  <testcase classname="Scenario: Tv11 Remove User" name="Scenario: Tv11 Remove User" time="0"/>
+  <testcase classname="Scenario: Tv13 Renew Loan" name="Given I create the user &quot;Chuckt@carleton.ca,pass&quot;" time="0"/>
+  <testcase classname="Scenario: Tv13 Renew Loan" name="And I create the title &quot;1234562291456,stank city&quot;" time="0"/>
+  <testcase classname="Scenario: Tv13 Renew Loan" name="And I create a copy &quot;1234562291456&quot;" time="0"/>
+  <testcase classname="Scenario: Tv13 Renew Loan" name="When I have the user borrow the copy &quot;Chuckt@carleton.ca,1234562291456,1&quot;" time="0"/>
+  <testcase classname="Scenario: Tv13 Renew Loan" name="And I have the user renew the copy &quot;Chuckt@carleton.ca,1234562291456,1&quot;" time="0"/>
+  <testcase classname="Scenario: Tv13 Renew Loan" name="Then I will receive the message &quot;Success!&quot;" time="0"/>
+  <testcase classname="Scenario: Tv13 Renew Loan" name="Scenario: Tv13 Renew Loan" time="0"/>
+  <testcase classname="Scenario: Tv14 Renew Loan Max Times" name="Given I create the user &quot;Chuck3@carleton.ca,pass&quot;" time="0"/>
+  <testcase classname="Scenario: Tv14 Renew Loan Max Times" name="And I create the title &quot;1834562291456,stank city&quot;" time="0"/>
+  <testcase classname="Scenario: Tv14 Renew Loan Max Times" name="And I create a copy &quot;1834562291456&quot;" time="0"/>
+  <testcase classname="Scenario: Tv14 Renew Loan Max Times" name="When I have the user borrow the copy &quot;Chuck3@carleton.ca,1834562291456,1&quot;" time="0"/>
+  <testcase classname="Scenario: Tv14 Renew Loan Max Times" name="And I have the user renew the copy &quot;Chuck3@carleton.ca,1834562291456,1&quot;" time="0"/>
+  <testcase classname="Scenario: Tv14 Renew Loan Max Times" name="Then I will receive the message &quot;Success!&quot;" time="0"/>
+  <testcase classname="Scenario: Tv14 Renew Loan Max Times" name="Scenario: Tv14 Renew Loan Max Times" time="0"/>
+  <testcase classname="Scenario: Tv16 Renew when full" name="Given I create the user &quot;alison@carleton.ca,pass&quot;" time="0"/>
+  <testcase classname="Scenario: Tv16 Renew when full" name="And I create the title &quot;1834544491456,1 city&quot;" time="0"/>
+  <testcase classname="Scenario: Tv16 Renew when full" name="And I create the title &quot;1834576591456,2 city&quot;" time="0"/>
+  <testcase classname="Scenario: Tv16 Renew when full" name="And I create a copy &quot;1834544491456&quot;" time="0.001"/>
+  <testcase classname="Scenario: Tv16 Renew when full" name="And I create a copy &quot;1834544491456&quot;" time="0"/>
+  <testcase classname="Scenario: Tv16 Renew when full" name="And I create a copy &quot;1834576591456&quot;" time="0"/>
+  <testcase classname="Scenario: Tv16 Renew when full" name="And I create a copy &quot;1834576591456&quot;" time="0"/>
+  <testcase classname="Scenario: Tv16 Renew when full" name="When I have the user borrow the copy &quot;alison@carleton.ca,1834544491456,1&quot;" time="0"/>
+  <testcase classname="Scenario: Tv16 Renew when full" name="And I have the user borrow the copy &quot;alison@carleton.ca,1834576591456,2&quot;" time="0"/>
+  <testcase classname="Scenario: Tv16 Renew when full" name="Scenario: Tv16 Renew when full" time="0"/>
+  <testcase classname="Scenario: Ti27 Return Copy That Does Not Exist" name="Given The loan to Yu@carleton.ca exists" time="0.001"/>
+  <testcase classname="Scenario: Ti27 Return Copy That Does Not Exist" name="When I have the user return the copy &quot;Yu@carleton.ca,9781442667181,1&quot;" time="0"/>
+  <testcase classname="Scenario: Ti27 Return Copy That Does Not Exist" name="Then I will receive the message &quot;Success!&quot;" time="0"/>
+  <testcase classname="Scenario: Ti27 Return Copy That Does Not Exist" name="Scenario: Ti27 Return Copy That Does Not Exist" time="0"/>
+</testsuite>
